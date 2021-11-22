@@ -43,6 +43,7 @@ module.exports = function(app, passport, db) {
         })
       })
 
+
     // app.get('/query/:id', !isLoggedIn, function(req, res){
     //     res.redirect('login.ejs')
             
@@ -154,8 +155,9 @@ function isLoggedIn(req, res, next) {
     if (req.isAuthenticated())
         return next();
 
-    res.redirect('/');
+    res.redirect('/login');
 }
+
 
 
 // message board routes ===============================================================
