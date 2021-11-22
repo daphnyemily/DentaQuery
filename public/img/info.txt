@@ -1,0 +1,14 @@
+
+Hope you enjoy your new logo, here are the people that
+made your beautiful logo happen :)
+font name: Decalotype-Light
+font link: https://hanken.co/product/decalotype/
+font author: Hanken Design Co.
+font author site: https://hanken.co/
+Slogan Font: Questrial-Regular.otf
+
+icon designer: Maxim Kulikov
+icon designer link: /maxim221
+        
+{"bg-gradient-0":"#007DE8","bg-gradient-1":"#A1C3DB","icon":"#ffffff","font":"#ffffff","slogan":"#ffffff"}
+      

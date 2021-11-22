@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+<head>
+    <title>DentaQuery</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/query.css">
+</head>
+<body>
+<!-- --------------------NAV BAR---------------------------------- -->
+    <nav id="gradient-custom" class="navbar navbar-expand-md bg-light navbar-dark">
+        <div class="container"> 
+
+            <a href="/" class="navbar-brand"><img id="navLogo" src="/img/default-monochromeNoMoto.svg" alt="DentaQuery Logo"></a> 
+         
+            <button 
+                class="navbar-toggler" 
+                type="button" 
+                data-bs-toggle="collapse" 
+                data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a href="/search" class="nav-link">Search</a>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a href="/query" class="nav-link">Query</a>
+                    </li> -->
+                    <li class="nav-item">
+                        <a href="/commonQuestions" class="nav-link">Common Questions & Tools</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="/login" class="nav-link">Login</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+<!-- ----------------------------PAGE CONTENT-------------------------------  -->
+    <button class="printBtn" onclick="window.print()">Print This Page</button>
+
+    <form method="post" action="/saveToProfile" class="queryPage">
+        <button class="btn-primary" type="submit">Save to profile</button>
+
+        <div class="proCodeAndDesc">
+            <h1 class="procCode">*The searched code displays here*</h1>  
+            <p class="procDescription"></p>           
+        </div>
+        
+        <div class="allQuestions">
+            <div class="insuranceQuestions">
+                <h2>Insurance Questions</h2>
+                <ul class="questionListIns">
+                </ul>
+            </div>
+
+            <div class="providerQuestions">
+                <h2>Provider Questions</h2>
+                <ul class="questionListProvider">
+                </ul>
+            </div>
+        </div>
+    </form>
+    <section class="footer" id="gradient-custom">
+    </section>
+
+<script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
+<script src="/query.js"></script>
+
+</body>
+</html>

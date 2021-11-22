@@ -1,0 +1,778 @@
+[
+    {
+      "id": 1,
+      "description": "gingivectomy or gingivoplasty - four or more contiguous teeth or tooth bounded spaces per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D4210",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 2,
+      "description": "gingivectomy or gingivoplasty - one to three contiguous teeth or tooth bounded spaces per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D4211",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 3,
+      "description": "gingivectomy or gingivoplasty to allow access for restorative procedure, per tooth",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D4212",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 4,
+      "description": "surgical placement of implant body: endosteal implant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D6010",
+      "Related": ["teeth", "dental", "oral", "implant", "dental implant"]
+    },
+    {
+      "id": 5,
+      "description": "surgical access to an implant body (second stage implant surgery)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D6011",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 6,
+      "description": "surgical placement of interim implant body for transitional prosthesis: endosteal implant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D6012",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 7,
+      "description": "extraction, erupted tooth or exposed root (elevation and/or forceps removal)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7140",
+      "Related": ["teeth", "dental", "oral", "extraction", "removal", "simple extraction"]
+    },
+    {
+      "id": 8,
+      "description": "extraction, erupted tooth requiring removal of bone and/or sectioning of tooth, and including elevation of mucoperiosteal flap if indicated",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7210",
+      "Related": ["teeth", "dental", "oral", "extraction", "removal", "wisdom teeth", "erupted teeth", "erupted tooth", "oral surgery"]
+    },
+    {
+      "id": 9,
+      "description": "removal of impacted tooth - soft tissue",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7220",
+      "Related": ["teeth", "dental", "oral", "extraction", "removal", "wisdom teeth", "impacted tooth", "impacted teeth", "medical", "oral surgery"]
+    },
+    {
+      "id": 10,
+      "description": "removal of impacted tooth - partially bony",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7230",
+      "Related": ["teeth", "dental", "oral", "extraction", "removal", "wisdom teeth", "impacted", "impacted tooth", "impacted teeth", "partially impacted", "medical", "oral surgery"]
+    },
+    {
+      "id": 11,
+      "description": "removal of impacted tooth - completely bony",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7240",
+      "Related": ["teeth", "dental", "oral", "extraction", "removal", "wisdom teeth", "impacted", "impacted tooth", "impacted teeth", "fully impacted", "medical", "oral surgery"]
+    },
+    {
+      "id": 12,
+      "description": "removal of impacted tooth - completely bony, with unusual surgical complications",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7241",
+      "Related": ["teeth", "dental", "oral", "extraction", "removal", "impacted", "oral surgery"]
+    },
+    {
+      "id": 13,
+      "description": "removal of residual tooth roots (cutting procedure)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7250",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 14,
+      "description": "coronectomy – intentional partial tooth removal",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7251",
+      "Related": ["teeth", "dental", "oral", "coronectomy", "partial"]
+    },
+    {
+      "id": 15,
+      "description": "exposure of an unerupted tooth",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7280",
+      "Related": ["teeth", "dental", "oral", "erupted", "ortho", "orthodontic", "exposure", "oral surgery"]
+    },
+    {
+      "id": 16,
+      "description": "mobilization of erupted or malpositioned tooth to aid eruption",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7282",
+      "Related": ["teeth", "dental", "oral", "uprighting", "luxation", "ortho", "orthodontic", "mobilizaion", "oral surgery"]
+    },
+    {
+      "id": 17,
+      "description": "placement of device to facilitate eruption of impacted tooth",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7283",
+      "Related": ["teeth", "dental", "oral", "ortho", "orthodontic", "bracketing", "exposure"]
+    },
+    {
+      "id": 18,
+      "description": "incisional biopsy of oral tissue-hard (bone, tooth)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7285",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 19,
+      "description": "incisional biopsy of oral tissue-soft",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7286",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 20,
+      "description": "exfoliative cytological sample collection",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7287",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 21,
+      "description": "brush biopsy - transepithelial sample collection",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7288",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 22,
+      "description": "surgical repositioning of teeth",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7290",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 23,
+      "description": "transseptal fiberotomy/supra crestal fiberotomy, by report",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7291",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 24,
+      "description": "placement of temporary anchorage device [screw retained plate] requiring flap; includes device removal",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7292",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 25,
+      "description": "placement of temporary anchorage device requiring flap; includes device removal",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7293",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 26,
+      "description": "placement of temporary anchorage device without flap; includes device removal",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7294",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 27,
+      "description": "harvest of bone for use in autogenous grafting procedure",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7295",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 28,
+      "description": "corticotomy – one to three teeth or tooth spaces, per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7296",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 29,
+      "description": "corticotomy – four or more teeth or tooth spaces, per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7297",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 30,
+      "description": "alveoloplasty in conjunction with extractions - four or more teeth or tooth spaces, per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7310",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 31,
+      "description": "alveoloplasty in conjunction with extractions - one to three teeth or tooth spaces, per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7311",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 32,
+      "description": "alveoloplasty not in conjunction with extractions - four or more teeth or tooth spaces, per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7320",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 33,
+      "description": "alveoloplasty not in conjunction with extractions - one to three teeth or tooth spaces, per quadrant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7321",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 34,
+      "description": "vestibuloplasty - ridge extension (secondary epithelialization)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7340",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 35,
+      "description": "vestibuloplasty - ridge extension (including soft tissue grafts, muscle reattachment, revision of soft tissue attachment and management of hypertrophied and hyperplastic tissue)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7350",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 36,
+      "description": "excision of benign lesion up to 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7410",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 37,
+      "description": "excision of benign lesion greater than 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7411",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 38,
+      "description": "excision of benign lesion, complicated",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7412",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 39,
+      "description": "excision of malignant lesion up to 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7413",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 40,
+      "description": "excision of malignant lesion greater than 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7414",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 41,
+      "description": "excision of malignant lesion, complicated",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7415",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 42,
+      "description": "excision of malignant tumor - lesion diameter up to 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7440",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 43,
+      "description": "excision of malignant tumor - lesion diameter greater than 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7441",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 44,
+      "description": "removal of benign odontogenic cyst or tumor - lesion diameter up to 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7450",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 45,
+      "description": "removal of benign odontogenic cyst or tumor - lesion diameter greater than 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7451",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 46,
+      "description": "removal of benign nonodontogenic cyst or tumor - lesion diameter up to 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7460",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 47,
+      "description": "removal of benign nonodontogenic cyst or tumor - lesion diameter greater than 1.25 cm",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7461",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 48,
+      "description": "destruction of lesion(s) by physical or chemical method, by report",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7465",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 49,
+      "description": "removal of lateral exostosis (maxilla or mandible)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7471",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 50,
+      "description": "removal of torus palatinus",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7472",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 51,
+      "description": "removal of torus mandibularis",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7473",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 52,
+      "description": "reduction of osseous tuberosity",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7485",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 53,
+      "description": "radical resection of maxilla or mandible",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7490",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 54,
+      "description": "incision and drainage of abscess - intraoral soft tissue",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7510",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 55,
+      "description": "incision and drainage of abscess - intraoral soft tissue - complicated (includes drainage of multiple fascial spaces)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7511",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 56,
+      "description": "incision and drainage of abscess - extraoral soft tissue",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7520",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 57,
+      "description": "incision and drainage of abscess - extraoral soft tissue - complicated (includes drainage of multiple fascial spaces)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7521",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 58,
+      "description": "removal of foreign body from mucosa, skin, or subcutaneous alveolar tissue",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7530",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 59,
+      "description": "mandible - open reduction (teeth immobilized, if present)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7630",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 60,
+      "description": "mandible - closed reduction (teeth immobilized, if present)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7640",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 61,
+      "description": "malar and/or zygomatic arch - open reduction",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7650",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 62,
+      "description": "malar and/or zygomatic arch - closed reduction",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7660",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 63,
+      "description": "facial bones - complicated reduction with fixation and multiple surgical approaches",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7680",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 64,
+      "description": "alveolus - open reduction stabilization of teeth",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7770",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 65,
+      "description": "alveolus, closed reduction stabilization of teeth",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7771",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 66,
+      "description": "facial bones - complicated reduction with fixation and multiple approaches",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7780",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 67,
+      "description": "open reduction of dislocation",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7810",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 68,
+      "description": "closed reduction of dislocation",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7820",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 69,
+      "description": "manipulation under anesthesia",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7830",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 70,
+      "description": "condylectomy",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7840",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 71,
+      "description": "surgical discectomy, with/without implant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7850",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 72,
+      "description": "disc repair",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7852",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 73,
+      "description": "synovectomy",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7854",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 74,
+      "description": "myotomy",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7856",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 75,
+      "description": "joint reconstruction",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7858",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 76,
+      "description": "osseous, osteoperiosteal, or cartilage graft of the mandible or maxilla - autogenous or nonautogenous, by report",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7950",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 77,
+      "description": "sinus augmentation with bone or bone substitutes via a lateral open approach",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7951",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 78,
+      "description": "sinus augmentation via a vertical approach",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7952",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 79,
+      "description": "bone replacement graft for ridge preservation - per site",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7953",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 80,
+      "description": "repair of maxillofacial soft and/or hard tissue defect",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7955",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 81,
+      "description": "frenulectomy - also known as frenectomy or frenotomy - separate procedure not incidental to another procedure",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7960",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 82,
+      "description": "buccal / labial frenectomy (frenulectomy)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7961",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 83,
+      "description": "lingual frenectomy (frenulectomy)",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7962",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 84,
+      "description": "frenuloplasty",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7963",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 85,
+      "description": "excision of hyperplastic tissue - per arch",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7970",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 86,
+      "description": "excision of pericoronal gingiva",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7971",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 87,
+      "description": "surgical placement: zygomatic implant",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7994",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 88,
+      "description": "synthetic graft - mandible or facial bones, by report",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7995",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 89,
+      "description": "implant-mandible for augmentation purposes (excluding alveolar ridge), by report",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7996",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 90,
+      "description": "appliance removal (not by dentist who placed appliance), includes removal of archbar",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7997",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 91,
+      "description": "intraoral placement of a fixation device not in conjunction with a fracture",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7998",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 92,
+      "description": "unspecified oral surgery procedure, by report",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D7999",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 93,
+      "description": "deep sedation/general anesthesia – first 15 minutes",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D9222",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 94,
+      "description": "deep sedation/general anesthesia – each subsequent 15 minute increment",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D9223",
+      "Related": ["teeth", "dental", "oral"]
+    },
+    {
+      "id": 95,
+      "description": "inhalation of nitrous oxide/analgesia, anxiolysis",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D9230",
+      "Related": ["teeth", "dental", "oral", "nitrous oxide", "nitrous", "laughing gas", "laughing", "sedation", "anesthesia", "oral surgery"]
+    },
+    {
+      "id": 96,
+      "description": "intravenous moderate (conscious) sedation/analgesia- first 15 minutes",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D9239",
+      "Related": ["teeth", "dental", "oral", "iv sedation", "sedation", "consious sedation", "anesthesia", "analgesia", "oral surgery"]
+    },
+    {
+      "id": 97,
+      "description": "intravenous moderate (conscious) sedation/analgesia – each subsequent 15 minute increment",
+      "providerQuestions": ["What are all the procedure codes?", "Are you in or out of network with my insurance plan", "Where is the location of the procedure? ex: office, operating room, outpatient", "Is an authorization required?", "Have you or will you submit an authorization?"],
+      "insuranceQuestions": ["What type of insurance plan do I have? ex: HMO, PPO", "Is my provider in or out of network with my plan?", "If my provider is out of network, do I have out of network benefits?", "Is this procedure covered under my plan?", "What type of service does the procedure fall under? ex: basic services, preventative services, major services. ", "What percentage is the procedure covered at?", "What is my plans deductible amount?", "Has anything been used towards my deductible? What remains of my deductible?", "Does my deductible apply for this procedure?", "What are my remaining max benefits?", "Does the procedure hit my max?", "Are there any special guidlines?", "Is an authorization or precertification required?"],
+      "dentalCode": "D9243",
+      "Related": ["teeth", "dental", "oral", "iv sedation", "sedation", "consious sedation", "anesthesia", "analgesia", "oral surgery"]
+    }
+  ]

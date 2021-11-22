@@ -1,42 +1,89 @@
-<!doctype html>
-<html>
-<head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>DentaQuery</title>
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
-    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css">
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-<div class="container">
-<div class="col-sm-6 col-sm-offset-3">
+    <link rel="stylesheet" href="login.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/paper.js/0.11.3/paper-full.min.js"></script>
+  </head>
+  <body>
+    <div id="back">
+      <canvas id="canvas" class="canvas-back"></canvas>
+      <div class="backRight"></div>
+      <div class="backLeft"></div>
+    </div>
 
-    <h1><span class="fa fa-sign-in"></span> Login</h1>
-
-    <% if (message.length > 0) { %>
-        <div class="alert alert-danger"><%= message %></div>
-    <% } %>
-
-    <!-- LOGIN FORM -->
-    <form action="/login" method="post">
-        <div class="form-group">
-            <label>Email</label>
-            <input type="text" class="form-control" name="email">
+    <div id="slideBox">
+      <div class="topLayer">
+        <div class="left">
+          <div class="content">
+            <div class="logo"></div>
+            <h2>Sign Up</h2>
+            <% if (message.length > 0) { %>
+            <div class="alert alert-danger"><%= message %></div>
+            <% } %>
+            <form action="/signup" id="form-signup" method="post">
+              <div class="form-element form-stack">
+                <label for="username-signup" class="form-label">Name</label>
+                <input id="username-signup" type="text" name="name" />
+              </div>
+              <div class="form-element form-stack form-half">
+                <label for="username-signup" class="form-label">City</label>
+                <input id="username-signup" type="text" name="city" />
+              </div>
+              <div class="form-element form-stack form-half">
+                <label for="username-signup" class="form-label">State</label>
+                <input id="username-signup" type="text" name="state" />
+              </div>
+              <div class="form-element form-stack">
+                <label for="email" class="form-label">Email</label>
+                <input id="email" type="email" name="email" />
+              </div>
+              <div class="form-element form-stack">
+                <label for="password-signup" class="form-label">Password</label>
+                <input id="password-signup" type="password" name="password" />
+              </div>
+              <div class="form-element form-submit">
+                <button id="signUp" class="signup" type="submit" name="signup">
+                  Sign up
+                </button>
+                <button id="goLeft" class="signup off" type="reset">Log In</button>
+              </div>
+            </form>
+          </div>
         </div>
-        <div class="form-group">
-            <label>Password</label>
-            <input type="password" class="form-control" name="password">
+        <div class="right">
+          <div class="content">
+            <div class="logo"></div>
+            <h2>Login</h2>
+            <% if (message.length > 0) { %>
+            <div class="alert alert-danger"><%= message %></div>
+            <% } %>
+            <form action="/login" id="form-login" method="post">
+              <div class="form-element form-stack">
+                <label for="username-login" class="form-label">Email</label>
+                <input id="username-login" type="text" name="email" required/>
+              </div>
+              <div class="form-element form-stack">
+                <label for="password-login" class="form-label">Password</label>
+                <input id="password-login" type="password" name="password" required/>
+              </div>
+              <div class="form-element form-submit">
+                <button id="logIn" class="login" type="submit" name="login">
+                  Log In
+                </button>
+                <button type="reset" id="goRight" class="login off" name="signup">
+                  Sign Up
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
-
-        <button type="submit" class="btn btn-warning btn-lg">Login</button>
-    </form>
-
-    <hr>
-
-    <p>Need an account? <a href="/signup">Signup</a></p>
-    <p>Or go <a href="/">home</a>.</p>
-
-
-</div>
-</div>
-</body>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
 </html>
