@@ -33,6 +33,9 @@
                     <li class="nav-item">
                         <a href="/commonQuestions" class="nav-link">Common Questions & Tools</a>
                     </li>
+                     <li class="nav-item">
+                        <a href="/profile" class="nav-link">Your Profile</a>
+                    </li>
                     <li class="nav-item">
                         <a href="/login" class="nav-link">Login</a>
                     </li>
@@ -43,10 +46,10 @@
 
 
     <!-------------------------- MAIN CONTENT ---------------------->
-    <section class="bg-light text-primary p-5 text-center text-md-start">
+    <section id="mainDiv" class="bg-light text-primary p-5 text-center text-md-start">
         
-        <div class="container">
-
+        <div class="container main">
+            
             <div>
                 <h1>Clarity, Transparency, & Peace of Mind</h1>
 
@@ -61,12 +64,12 @@
                 </div>
             </div>
 
-            <div class="d-md-flex align-items-center justify-content-between">
-                <div>
-                    <p class="lead my-4">
+            <div class="d-md-flex align-items-center justify-content-between mainBody">
+                <div class="mainHeading">
+                    <h3 class="subHeading">
                         Search your procedure and get all the questions needed to fully understand your coverage.
-                    </p>
-                    <p>
+                    </h3>
+                    <p class="mainParagraph">
                         With dental and medical care your possible financial outcome should be easy to understand and stress free. Give yourself peace of mind and equip yourself with the knowlege to be physically, mentally, and financially healthy. 
                     </p>
                     <!-- <button class="btn btn-primary brnlg">
@@ -76,20 +79,26 @@
 
                 <img class="img-fluid" id="gradientLogo" src="/img/logoIconClearBackground.png" alt="dentaQuery Logo">
             </div>
+
+            <section class="commonQuestions">
+                <a class="commonQuestionsLink" href="/commonQuestions"><h3>Common Questions</h3></a>
+                <ul class="questionsUl">
+                    <li class="questionList"><a href="/commonQuestions#2" class="questionLinks">What is a dental deductible?</a></li>
+                    <li class="questionList"><a href="/commonQuestions#3" class="questionLinks">I have never had to pay a bill for my dentist, why am I paying a bill now?</a></li>
+                    <li class="questionList"><a href="/commonQuestions#4" class="questionLinks">What is an annual maximum benefit?</a></li>
+                    <li class="questionList"><a href="/commonQuestions#9" class="questionLinks">Whats the difference between in network and contracted?</a></li>
+                </ul>
+        
+            </section>
         </div>
+
     </section>
 
-    <!-- <section class="commonQuestions">
-        <ul>
-            <li class="questionList"><a href="/commonQuestions#2" class="questionLinks">What is a dental deductible?</a></li>
-            <li class="questionList"><a href="/commonQuestions#3" class="questionLinks">I have never had to pay a bill for my dentist, why am I paying a bill now?</a></li>
-            <li class="questionList"><a href="/commonQuestions#4" class="questionLinks">What is an annual maximum benefit?</a></li>
-            <li class="questionList"><a href="/commonQuestions#9" class="questionLinks">Whats the difference between in network and contracted?</a></li>
-        </ul>
 
-    </section> -->
 
-    <footer class="footer" id="gradient-custom"></footer>
+    <footer class="footer" id="gradient-custom">
+        <h5>CONTENT</h5>
+    </footer>
 
 <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>
 <script src="main.js"></script>

@@ -43,6 +43,9 @@ body {
      line-height: 1.4;
      font-family: Helvetica, Arial, sans-serif;
      overflow-y: scroll;
+     height: 100vh;
+     display: flex;
+     flex-direction: column;
 }
 
 
@@ -71,8 +74,10 @@ body {
 }
 /* ************************ PAGE CONTENT BELOW ***************** */
 form{
-  width: 100%;
+  display: flex;
+  width: 75%;
   height: 100%;
+  justify-content: space-evenly;
 }
 .mainSearchBox{
   width: 85%;
@@ -85,8 +90,7 @@ form{
  outline: none;
 }
 .searchPage{
-    margin: 50px;
-    margin-bottom: 200px;
+      height: -webkit-fill-available;
 }
 .scrollbar ul li a{
   display: flex;

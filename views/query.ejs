@@ -32,6 +32,9 @@
                     <li class="nav-item">
                         <a href="/commonQuestions" class="nav-link">Common Questions & Tools</a>
                     </li>
+                     <li class="nav-item">
+                        <a href="/profile" class="nav-link">Your Profile</a>
+                    </li>
                     <li class="nav-item">
                         <a href="/login" class="nav-link">Login</a>
                     </li>
@@ -40,14 +43,21 @@
         </div>
     </nav>
 <!-- ----------------------------PAGE CONTENT-------------------------------  -->
-    <button class="printBtn" onclick="window.print()">Print This Page</button>
-
-    <form method="post" action="/saveToProfile" class="queryPage">
-        <button class="btn-primary" type="submit">Save to profile</button>
+    
+    <form method="post" action="/saveToProfile" class="queryPage" onsubmit="function stop(e){
+        e.preventDefault()
+        someBug()
+        return false
+        }">
 
         <div class="proCodeAndDesc">
-            <h1 class="procCode">*The searched code displays here*</h1>  
-            <p class="procDescription"></p>           
+            <h1>Procedure Code: <span class="procCode"></span></h1>
+            <p>Description: <span class="procDescription"></span></p>
+
+            <div class="buttons">
+                <button class="btn-primary" type="submit">Save to profile</button>
+                <button class="printBtn" type="button" onclick="window.print()">Print This Page</button>
+            </div>
         </div>
         
         <div class="allQuestions">

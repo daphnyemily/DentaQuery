@@ -3,86 +3,178 @@
 /*******************************************/
 
 /* Box Model Hack */
-*{
-    box-sizing: border-box;
-  }
-  
-  /* Clear fix hack */
-  .clearfix:after {
-       content: ".";
-       display: block;
-       clear: both;
-       visibility: hidden;
-       line-height: 0;
-       height: 0;
-  }
-  
-  .clear {
-      clear: both;
-  }
-  
-  .alignright {
-      float: right;
-      padding: 0 0 10px 10px; /* note the padding around a right floated image */
-  }
-  
-  .alignleft {
-      float: left;
-      padding: 0 10px 10px 0; /* note the padding around a left floated image */
-  }
+* {
+  box-sizing: border-box;
+}
 
-  /*.bodyCont {
-      position: absolute;
-      left: 0;
-      right: 0;
-      top: 0;
-      max-width: 1350;
-  }*/
-  
-  /******************************************
-  /* BASE STYLES
-  /*******************************************/
-  
-  body {
-       color: #000;
-       font-size: 12px;
-       line-height: 1.4;
-       font-family: Helvetica, Arial, sans-serif;
-  }
-  
-  
-  /******************************************
-  /* LAYOUT
-  /*******************************************/
-  #navLogo{
-      width: 10em;
-  }
-  .mainSearchBox{
-      width: 75%;
-  }
-  .footer{
-      width: 100%;
-      height: 10em;
-  }
-  #gradientLogo{
-    width: 25em;
-  }
-    #gradient-custom {
-    /* fallback for old browsers */
-    background: #007de8;
-  
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: -webkit-linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1));
-  
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    background: linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1))
-  }
-  
-  /******************************************
-  /* ADDITIONAL STYLES
-  /*******************************************/
-  .questionLinks{
-    text-decoration: none;
-    color: #569ce2;
-    font-size: 17px;
-  }
+/* Clear fix hack */
+.clearfix:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px;
+  /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0;
+  /* note the padding around a left floated image */
+}
+
+/*.bodyCont {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    max-width: 1350;
+}*/
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+  display: flex;
+  color: #000;
+  font-size: 12px;
+  line-height: 1.4;
+  font-family: Helvetica, Arial, sans-serif;
+  height: 100vh;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+#navLogo {
+  width: 10em;
+}
+
+#mainDiv {
+  height: -webkit-fill-available;
+}
+.nav-item{
+  font-size: 20px;
+}
+.container.main {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+h1 {
+  color: #569ce2;
+  text-align: center;
+  font-size: 45px;
+}
+
+.searchField {
+  margin: auto;
+  margin-top: 35px;
+  width: 55%;
+}
+
+.searchField form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.searchField input {
+
+}
+
+.searchField button {
+  background: #569ce2;
+  border-color: #569ce2;
+}
+
+.mainSearchBox {
+  width: 75%;
+  margin-left: 30px;
+  font-size: 20px;
+  color: #569ce2;
+}
+.mainSearchBox:focus-visible{
+  outline: none;
+ }
+.mainHeading {
+  margin: auto;
+}
+
+.subHeading {
+  width: 800px;
+  font-size: 30px;
+  margin-top: 50px;
+  margin-bottom: 25px;
+  color: lightslategray;
+}
+
+.mainParagraph {
+  width: 800px;
+  font-size: 20px;
+  color: #569ce2;
+}
+/* .mainBody{
+  border-bottom: 1px solid #569ce2;
+} */
+.commonQuestions {
+  margin-left: 98px;
+  margin-top: 40px;
+  border-top: 1px solid lightblue;
+  width: 85%;
+}
+
+.commonQuestions h3 {
+  margin-bottom: 20px;
+  color: lightslategray;
+  margin-top: 20px;
+  font-size: 35px;
+}
+.commonQuestionsLink{
+  text-decoration: none;
+}
+.footer {
+  width: 100%;
+  height: auto;
+}
+
+#gradientLogo {
+  width: 25em;
+}
+
+#gradient-custom {
+  /* fallback for old browsers */
+  background: #007de8;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1))
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+.questionLinks {
+  text-decoration: none;
+  color: #569ce2;
+  font-size: 17px;
+}

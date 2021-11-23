@@ -134,7 +134,7 @@ input {
   margin: 0 auto;
   width: 500px;
   margin-top: 20px;
-  margin-bottom: 30px;
+  margin-bottom: 0px;
   border-radius: 100px;
 }
 .content {
@@ -269,7 +269,7 @@ button.login {
 #form-signup, #form-login{
   display: flex;
   flex-wrap: wrap;
-  gap: 25px;
+  gap: 17px;
 }
 
 button.off {
@@ -319,7 +319,12 @@ button:focus.off.login, button:active.off.login, button:hover.off.login {
   user-select: none;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-
+h3{
+  color: #9fc2da;
+}
+.homeLink{
+  text-decoration: none;
+}
 /* MEDIA QUERY */
 @media only screen and (max-width: 1200px){
   #slideBox {

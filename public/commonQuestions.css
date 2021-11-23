@@ -57,6 +57,9 @@
   #navLogo{
       width: 10em;
   }
+  .nav-item{
+    font-size: 20px;
+  }
   .mainSearchBox{
       width: 75%;
   }

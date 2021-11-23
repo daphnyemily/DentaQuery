@@ -16,12 +16,12 @@ window.onload = function(){
 
         for (let i = 0; i < data.length; i++) {
           document.querySelector(".procCode").innerText = urlCode
-          document.querySelector(".procDescription").innerText = data[i].description
 
           if (urlCode === data[i].dentalCode) {
+            document.querySelector(".procDescription").innerText = data[i].description
             for (let x = 0; x < data[i].providerQuestions.length; x++) {
               let proQ = document.createElement("li")
-              let proQInput = document.createElement("input")
+              let proQInput = document.createElement("textarea")
               proQInput.type = "text"
               proQInput.name = "proQAnswer" + x
               proQInput.placeholder = "Type answer here ..."
@@ -33,7 +33,7 @@ window.onload = function(){
             }
             for (let y = 0; y < data[i].insuranceQuestions.length; y++) {
               let insQ = document.createElement("li")
-              let insQInput = document.createElement("input")
+              let insQInput = document.createElement("textarea")
               insQInput.type = "text"
               insQInput.name = "insQAnswer" + y
               insQInput.placeholder = "Type answer here ..."
