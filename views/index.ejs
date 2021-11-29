@@ -39,6 +39,9 @@
                     <li class="nav-item">
                         <a href="/login" class="nav-link">Login</a>
                     </li>
+                    <li class="nav-item">
+                        <a href="/logout" class="nav-link">Logout</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -54,11 +57,11 @@
                 <h1>Clarity, Transparency, & Peace of Mind</h1>
 
                 <div class="searchField">
-                    <form method="get" action="/search">
+                    <form method="get" >
 
-                    <input class="mainSearchBox" placeholder="Search procedure code or procedure description..." type="search" id="searchBar" autofocus="autofocus" onfocus="this.select()">
+                    <input class="mainSearchBox" placeholder="Search procedure code or procedure description..." type="search" id="indexSearchBar" autofocus="autofocus" onfocus="this.select()">
 
-                    <button type="submit"  class="btn btn-primary brnlg" id="searchBtn">Search</button>
+                    <button type="submit"  class="btn btn-primary brnlg" id="indexSearchBtn">Search</button>
 
                     </form>
                 </div>
@@ -97,7 +100,23 @@
 
 
     <footer class="footer" id="gradient-custom">
-        <h5>CONTENT</h5>
+        <!-- <ul class="footerLinks">
+            <li class="nav-item">
+                <a href="/search" class="nav-link">Search</a>
+            </li> -->
+            <!-- <li class="nav-item">
+                <a href="/query" class="nav-link">Query</a>
+            </li>
+            <li class="nav-item">
+                <a href="/commonQuestions" class="nav-link">Common Questions & Tools</a>
+            </li>
+             <li class="nav-item">
+                <a href="/profile" class="nav-link">Your Profile</a>
+            </li>
+            <li class="nav-item">
+                <a href="/login" class="nav-link">Login</a>
+            </li>
+        </ul> -->
     </footer>
 
 <script src="https://kit.fontawesome.com/c0e668a8ad.js" crossorigin="anonymous"></script>

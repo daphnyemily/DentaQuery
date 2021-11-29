@@ -1,7 +1,6 @@
 console.log("im linked")
 console.log(window.location.pathname.substr(7))
 
-
 document.querySelector("#searchBtn").addEventListener("click", () => {
   document.querySelectorAll('.resultList').forEach(element => element.remove())
 
@@ -43,6 +42,5 @@ document.querySelector("#searchBtn").addEventListener("click", () => {
       // console.log(data)
     })
 })
-
 
 

@@ -89,7 +89,7 @@ h2 {
 .buttons {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 230px;
 }
 .proCodeAndDesc {
