@@ -1,4 +1,4 @@
-let urlCode = window.location.pathname.substr(7)
+let urlCode = window.location.pathname.substr(8)
 console.log(urlCode)
 
 window.onload = function(){  

@@ -14,6 +14,7 @@
     />
     <link rel="stylesheet" href="profile.css" />
   </head>
+
   <body>
     <nav
       id="gradient-custom"
@@ -53,6 +54,9 @@
           <li class="nav-item">
               <a href="/login" class="nav-link">Login</a>
           </li>
+          <li class="nav-item">
+            <a href="/logout" class="nav-link">Logout</a>
+        </li>
           </ul>
         </div>
       </div>
@@ -72,9 +76,15 @@
           <h3>, <%= user.local.state %></h3>
         </div>
         <div class="savedLinks">
+          <% if (queryForm[0]) { %>
           <ul>
-            <li>link to saved forms/query</li>
+            <% for(let i=0; i<queryForm[0].savedDocs.length; i++) {%>
+              <li>
+                <a href="/query2/<%= queryForm[0].savedDocs[i][0].procedureCode %>"><%= queryForm[0].savedDocs[i][0].procedureCode %> , <%= queryForm[0].savedDocs[i][0].procedureDescription %> , <%= queryForm[0].savedDocs[i][1]%></a>
+              </li>
+            <% } %>
           </ul>
+          <% } %>
         </div>
       </div>
     </div>

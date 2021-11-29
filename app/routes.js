@@ -12,10 +12,16 @@ module.exports = function(app, passport, db) {
 // PROFILE SECTION =========================
     app.get('/profile', isLoggedIn, function(req, res) {
         db.collection('messages').find().toArray((err, result) => {
-          if (err) return console.log(err)
-          res.render('profile.ejs', {
-            user : req.user,
-            messages: result
+            db.collection('savedQuestions').find({
+                userId: ObjectID(req.user._id)
+
+            }).toArray((err2, result2) => {
+                if (err) return console.log(err)
+                res.render('profile.ejs', {
+                user : req.user,
+                messages: result,
+                queryForm: result2
+            }, console.log(result2)  )      
           })
         })
     });
@@ -42,6 +48,17 @@ module.exports = function(app, passport, db) {
             })
         })
       })
+
+ // SEARCH RESULT TO QUERY PAGE  =========================
+    app.get('/query2/:id', isLoggedIn, function(req, res){
+        db.collection('messages').find().toArray((err, result) => {
+          if (err) return console.log(err)
+              res.render('query2.ejs', {
+                  user : req.user,
+                  message: result,
+              })
+          })
+        })
 
 
     // app.get('/query/:id', !isLoggedIn, function(req, res){
@@ -144,7 +161,7 @@ app.get('/about', function(req, res) {
         user.local.email    = undefined;
         user.local.password = undefined;
         user.save(function(err) {
-            res.redirect('/profile');
+            res.redirect('/');
         });
     });
 
