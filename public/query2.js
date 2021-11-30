@@ -27,29 +27,22 @@ window.onload = function(){
 
           if (urlCode === data[i].dentalCode) {
             document.querySelector(".procDescription").innerText = data[i].description
+            let proArr = document.querySelectorAll('.proQInput') 
+            let insArr = document.querySelectorAll('.insQInput') 
+            
             for (let x = 0; x < data[i].providerQuestions.length; x++) {
-              let proQ = document.createElement("li")
-              let proQInput = document.createElement("textarea")
-              proQInput.type = "text"
-              proQInput.name = "proQAnswer" + x
-              proQInput.placeholder = "Type answer here ..."
-              proQInput.classList.add("proQInput")
-              proQ.innerText = data[i].providerQuestions[x]
-              proQ.classList.add("proQ")
-              proQ.appendChild(proQInput)
-              providerList.appendChild(proQ)
+              proArr.forEach(el => {
+                if(Number(el.name.substr(el.name.length - 1)) === x){
+                  el.parentElement.childNodes[1].innerText = data[i].providerQuestions[x]
+                }
+              })
             }
             for (let y = 0; y < data[i].insuranceQuestions.length; y++) {
-              let insQ = document.createElement("li")
-              let insQInput = document.createElement("textarea")
-              insQInput.type = "text"
-              insQInput.name = "insQAnswer" + y
-              insQInput.placeholder = "Type answer here ..."
-              insQInput.classList.add("InsQInput")
-              insQ.innerText = data[i].insuranceQuestions[y]
-              insQ.classList.add("insQ")
-              insQ.appendChild(insQInput)
-              insList.appendChild(insQ)
+              insArr.forEach(el => {
+                if(Number(el.name.substr(el.name.length - 1)) === y){
+                  el.parentElement.childNodes[1].innerText = data[i].insuranceQuestions[y]
+                }
+              })
             }
             
           }

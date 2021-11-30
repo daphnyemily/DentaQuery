@@ -52,10 +52,15 @@ module.exports = function(app, passport, db) {
  // SEARCH RESULT TO QUERY PAGE  =========================
     app.get('/query2/:id', isLoggedIn, function(req, res){
         db.collection('messages').find().toArray((err, result) => {
-          if (err) return console.log(err)
+            db.collection('savedQuestions').find({
+                userId: ObjectID(req.user._id)
+            }).toArray((err2, result2) => {
+                if (err) return console.log(err)
               res.render('query2.ejs', {
                   user : req.user,
                   message: result,
+                  queryForm: result2
+                })
               })
           })
         })
@@ -78,7 +83,6 @@ app.get('/commonQuestions', function(req, res) {
 // QUERY PAGE =========================================================================
 app.get('/query', function(req, res) {
   res.render('query.ejs', { message: req.flash('search') });
-
 });
 
 app.post("/saveToProfile", isLoggedIn, function(req, res){
@@ -99,6 +103,32 @@ app.post("/saveToProfile", isLoggedIn, function(req, res){
         $push:{
             savedDocs: [req.body, today] 
         }    
+    },{
+        upsert: true
+    },
+     (err, result) => {
+        if (err) return console.log(err)
+        console.log('saved to database')
+    })
+    res.redirect("/profile")
+})
+
+app.post("/updateProfile", isLoggedIn, function(req, res){
+    let today = new Date();
+    let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    let yyyy = today.getFullYear();
+    let dd = String(today.getDate()).padStart(2, '0');
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); 
+    today = mm + '/' + dd + '/' + yyyy + " " + time    
+
+    db.collection('savedQuestions').updateOne({
+        _id: ObjectID(req.user._id)
+    }, {
+        $set:{
+            userId: ObjectID(req.user._id),
+            name: req.user.local.name,
+            savedDocs: [[req.body, today]]
+    }   
     },{
         upsert: true
     },

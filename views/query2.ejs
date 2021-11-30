@@ -48,7 +48,7 @@
     </nav>
 <!-- ----------------------------PAGE CONTENT-------------------------------  -->
     
-    <form method="post" action="/saveToProfile" class="queryPage" onsubmit="function stop(e){
+    <form method="post" action="/updateProfile" class="queryPage" onsubmit="function stop(e){
         e.preventDefault()
         someBug()
         return false
@@ -59,7 +59,7 @@
             <p>Description: <span class="procDescription"></span></p>
 
             <div class="buttons">
-                <button class="btn-primary" type="submit">Save to profile</button>
+                <button class="btn-primary" type="submit">Update</button>
                  <!-- <button class="printBtn" type="button" onclick="window.print()">Print This Page</button> -->
             </div>
         </div>
@@ -68,12 +68,36 @@
             <div class="insuranceQuestions">
                 <h2>Insurance Questions</h2>
                 <ul class="questionListIns">
+                    <% for(let i = 0; i<queryForm[0].savedDocs.length; i++){%>
+                        <% for (const property in queryForm[0].savedDocs[i][0]) {%>
+                            <% if(property !== "procedureCode" && property !== "procedureDescription"){%>
+                                <% if(property.substr(0, 3) === "ins"){%>
+                    <li class="insQ">
+                        <span></span>
+                        <textarea class="insQInput" name="<%= property %>"><%= queryForm[0].savedDocs[i][0][property] %></textarea>
+                    </li>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    <% } %>
                 </ul>
             </div>
 
             <div class="providerQuestions">
                 <h2>Provider Questions</h2>
                 <ul class="questionListProvider">
+                    <% for(let i = 0; i<queryForm[0].savedDocs.length; i++){%>
+                        <% for (const property in queryForm[0].savedDocs[i][0]) {%>
+                            <% if(property !== "procedureCode" && property !== "procedureDescription"){%>
+                                <% if(property.substr(0, 3) === "pro"){%>
+                    <li class="proQ">
+                        <span></span>
+                        <textarea class="proQInput" name="<%= property %>"><%= queryForm[0].savedDocs[i][0][property] %></textarea>
+                    </li>
+                                <% } %>
+                            <% } %>
+                        <% } %>
+                    <% } %>
                 </ul>
             </div>
         </div>
