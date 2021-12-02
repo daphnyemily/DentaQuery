@@ -127,9 +127,6 @@ h1 {
   font-size: 20px;
   color: #569ce2;
 }
-/* .mainBody{
-  border-bottom: 1px solid #569ce2;
-} */
 .commonQuestions {
   margin-left: 98px;
   margin-top: 40px;
@@ -146,26 +143,64 @@ h1 {
 .commonQuestionsLink{
   text-decoration: none;
 }
+/* FOOTER */
 .footer {
   width: 100%;
   height: auto;
 }
-.footerUl{
+.footerUlOne{
   color: white;
   list-style: none;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* width: 12%; */
+  float: left;
 }
-.footerLi a{color: white;font-size: 13px;padding: 5px;/* margin-top: 20px; */}
+.footerUlTwo{
+  color: white;
+  list-style: none;
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* width: 23%; */
+  align-content: flex-start;
+  float: left;
+}
+.footerLi a{
+  color: white;
+  font-size: 13px;
+  padding: 5px;
+}
+.contactDiv{display: flex;flex-direction: column;/* flex-wrap: nowrap; */align-items: center;}
+.contactUl{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+.contactLi{
+  font-size: 18px;
+}
+.contactLi a{
+  text-decoration: none;
+  color: white;
+  margin: 20px;
+}
+.footerImg{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
 .footerLogo{
-  width: 15%;
-  /* float: right; */
+  width: 50%;
 }
 #gradientLogo {
   width: 25em;
 }
 
 #gradient-custom {
-  /* fallback for old browsers */
   display: flex;
   margin-top: 20p;
   background: #007de8;
@@ -175,6 +210,8 @@ h1 {
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
   background: linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1));
+  flex-direction: row;
+  justify-content: center;
 }
 .questionLinks {
   text-decoration: none;
