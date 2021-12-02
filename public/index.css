@@ -96,10 +96,6 @@ h1 {
   gap: 20px;
 }
 
-.searchField input {
-
-}
-
 .searchField button {
   background: #569ce2;
   border-color: #569ce2;
@@ -154,30 +150,37 @@ h1 {
   width: 100%;
   height: auto;
 }
-.footerLinks{
-  
+.footerUl{
+  color: white;
+  list-style: none;
+  margin-top: 20px;
 }
-
+.footerLi a{color: white;font-size: 13px;padding: 5px;/* margin-top: 20px; */}
+.footerLogo{
+  width: 15%;
+  /* float: right; */
+}
 #gradientLogo {
   width: 25em;
 }
 
 #gradient-custom {
   /* fallback for old browsers */
+  display: flex;
+  margin-top: 20p;
   background: #007de8;
 
   /* Chrome 10-25, Safari 5.1-6 */
   background: -webkit-linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1));
 
   /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  background: linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1))
+  background: linear-gradient(to right, rgba(161, 195, 219, 1), rgba(0, 125, 232, 1));
 }
-
-/******************************************
-/* ADDITIONAL STYLES
-/*******************************************/
 .questionLinks {
   text-decoration: none;
   color: #569ce2;
   font-size: 17px;
 }
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
