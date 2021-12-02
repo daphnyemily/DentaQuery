@@ -16,12 +16,18 @@ module.exports = function(app, passport, db) {
                 userId: ObjectID(req.user._id)
 
             }).toArray((err2, result2) => {
+            db.collection('calendar').find({
+                userId: ObjectID(req.user._id)
+
+            }).toArray((err3, result3) => {
                 if (err) return console.log(err)
                 res.render('profile.ejs', {
                 user : req.user,
                 messages: result,
-                queryForm: result2
-            }, console.log(result2)  )      
+                queryForm: result2,
+                calendar: result3
+              })
+            })      
           })
         })
     });
@@ -59,7 +65,8 @@ module.exports = function(app, passport, db) {
               res.render('query2.ejs', {
                   user : req.user,
                   message: result,
-                  queryForm: result2
+                  queryForm: result2,
+                  url: req.url
                 })
               })
           })
@@ -85,13 +92,14 @@ app.get('/query', function(req, res) {
   res.render('query.ejs', { message: req.flash('search') });
 });
 
+
 app.post("/saveToProfile", isLoggedIn, function(req, res){
     let today = new Date();
     let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
     let yyyy = today.getFullYear();
     let dd = String(today.getDate()).padStart(2, '0');
     let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); 
-    today = mm + '/' + dd + '/' + yyyy + " " + time    
+    today = mm + '-' + dd + '-' + yyyy + " " + time    
 
     db.collection('savedQuestions').updateOne({
         _id: ObjectID(req.user._id)
@@ -101,7 +109,32 @@ app.post("/saveToProfile", isLoggedIn, function(req, res){
             name: req.user.local.name,
     },
         $push:{
-            savedDocs: [req.body, today] 
+            savedDocs: {
+                doc: [req.body],
+                date:today
+            }
+        }    
+    },{
+        upsert: true
+    },
+     (err, result) => {
+        if (err) return console.log(err)
+        console.log('saved to database')
+    })
+
+    db.collection('calendar').updateOne({
+        _id: ObjectID(req.user._id)
+    }, {
+        $set:{
+            userId: ObjectID(req.user._id),
+            name: req.user.local.name,
+    },
+        $push:{
+            calendarEvents: {
+                appointment: req.body.procedureCode,
+                appointmentDesc: req.body.procedureDescription,
+                date:today
+            }
         }    
     },{
         upsert: true
@@ -113,28 +146,93 @@ app.post("/saveToProfile", isLoggedIn, function(req, res){
     res.redirect("/profile")
 })
 
-app.post("/updateProfile", isLoggedIn, function(req, res){
-    let today = new Date();
-    let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
-    let yyyy = today.getFullYear();
-    let dd = String(today.getDate()).padStart(2, '0');
-    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); 
-    today = mm + '/' + dd + '/' + yyyy + " " + time    
-
-    db.collection('savedQuestions').updateOne({
+app.post("/saveToCalendar", isLoggedIn, function(req, res){
+    db.collection('calendar').updateOne({
         _id: ObjectID(req.user._id)
     }, {
         $set:{
             userId: ObjectID(req.user._id),
             name: req.user.local.name,
-            savedDocs: [[req.body, today]]
-    }   
+    },
+    $push:{
+        calendarEvents: {
+            appointment: req.body.appointment,
+            appointmentDesc: req.body.appointmentDesc,
+            date: req.body.date + " " + req.body.time
+        }
+    }    
     },{
         upsert: true
     },
      (err, result) => {
         if (err) return console.log(err)
         console.log('saved to database')
+    })
+    res.redirect("/profile")
+})
+
+app.post("/updateProfile/query2/:id", isLoggedIn, function(req, res){
+    let today = new Date();
+    let mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+    let yyyy = today.getFullYear();
+    let dd = String(today.getDate()).padStart(2, '0');
+    let time = today.getHours() + ":" + today.getMinutes() + ":" + today.getSeconds(); 
+    today = mm + '-' + dd + '-' + yyyy + " " + time 
+
+    db.collection('savedQuestions').updateOne({
+       "savedDocs.date": req.url.substr(28).replace("%20", " ")
+    }, {
+        $pull:{
+            "savedDocs": {
+                date:req.url.substr(28).replace("%20", " ")
+            }
+    },
+    },{
+        upsert: true
+    })
+    db.collection('savedQuestions').updateOne({
+        _id: ObjectID(req.user._id)
+    }, {
+        $push:{
+            savedDocs:{
+                doc: [req.body],
+                date:today
+            }
+    },
+    },{
+        upsert: true
+    },
+     (err, result) => {
+        if (err) return console.log(err)
+        console.log('saved to database', req.url.substr(28).replace("%20", " "))
+    })
+    db.collection('calendar').updateOne({
+       "calendarEvents.date": req.url.substr(28).replace("%20", " ")
+    }, {
+        $pull:{
+            "calendarEvents":{ 
+                date:req.url.substr(28).replace("%20", " ")
+            }
+    },
+    },{
+        upsert: true
+    })
+    db.collection('calendar').updateOne({
+        _id: ObjectID(req.user._id)
+    }, {
+        $push:{
+            calendarEvents: {
+                appointment: req.body.procedureCode,
+                appointmentDesc: req.body.procedureDescription,
+                date:today
+            }
+    },
+    },{
+        upsert: true
+    },
+     (err, result) => {
+        if (err) return console.log(err)
+        console.log('saved to database', req.url.substr(28).replace("%20", " "))
     })
     res.redirect("/profile")
 })

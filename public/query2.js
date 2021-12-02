@@ -1,4 +1,4 @@
-let urlCode = window.location.pathname.substr(8)
+let urlCode = window.location.pathname.substr(8, 5)
 console.log(urlCode)
 
 window.onload = function(){  
@@ -19,13 +19,11 @@ window.onload = function(){
         invis2.classList.add("hiddenInput")
         document.querySelector(".proCodeAndDesc").appendChild(invis2)
         invis2.style.visibility = "hidden"
-
+         
+        document.querySelector(".procCode").innerText = urlCode
         for (let i = 0; i < data.length; i++) {
-          document.querySelector(".procCode").innerText = urlCode
-          
-          invis2.value = data[i].description
-
           if (urlCode === data[i].dentalCode) {
+            invis2.value = data[i].description
             document.querySelector(".procDescription").innerText = data[i].description
             let proArr = document.querySelectorAll('.proQInput') 
             let insArr = document.querySelectorAll('.insQInput') 

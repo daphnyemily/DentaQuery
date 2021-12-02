@@ -43,13 +43,13 @@
 .mainInfo{
   display: flex;
   /* padding: 29px; */
-  height: -webkit-fill-available;
+  height: 1000px;
 }
 .left{
   width: 30%;
   /* border-bottom: 1px solid lightgray; */
   margin: 10px;
-  padding: 30px 0px 30px 30px;
+  padding: 0px 0px 30px 30px;
 }
 .right{
   width: 60%;
@@ -134,3 +134,766 @@ body {
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.calendar_left {
+  background: #00a8e8;
+  width: 400px;
+  height: 415px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  padding: 1.5em;
+  z-index: 1;
+}
+.calendar_left .header {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2em;
+  color: #fff;
+  font-size: 0.7em;
+}
+.calendar_left .header h1 {
+  line-height: 1em;
+}
+.calendar_left .header i {
+  cursor: pointer;
+}
+.calendar_right {
+  background: #0096cf;
+  width: 350px;
+  height: 415px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+  position: relative;
+  transform: scale(0.95) translateX(-10px);
+  z-index: 0;
+}
+.calendar_right .list {
+  height: 351px;
+  overflow-y: scroll;
+  padding: 1em;
+}
+.calendar_right .list ul {
+  padding: 2.25em;
+}
+.calendar_right .list li {
+  padding: 1em;
+  width: 180px;
+  color: #fff;
+  transform: translateX(-700px);
+}
+.calendar_right .list .description {
+  font-size: 12px;
+}
+.calendar_right form {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  width: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.calendar_right input {
+  background: #008ec4;
+  border: none;
+  padding: 1.2em;
+  flex: 2;
+  outline: none;
+  color: #fff;
+  border-bottom-right-radius: 5px;
+}
+.calendar_right select {
+  background: #007fb0;
+  border: none;
+  padding: 1.2em;
+  outline: none;
+  color: #fff;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 5px;
+  appearance: none;
+}
+.days {
+  display: flex;
+  justify-content: flex-start;
+  width: 400px;
+}
+.days .day_item {
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+.dates {
+  display: flex;
+  justify-content: flex-start;
+  flex-flow: row wrap;
+  width: 350px;
+}
+.dates .date_item {
+  color: #fff;
+  width: 50px;
+  text-align: center;
+  height: 50px;
+  padding: 1em;
+  cursor: pointer;
+  border-radius: 100%;
+}
+.present {
+  background: #fff;
+  transform: scale(0.7);
+  border-radius: 50px;
+  padding: 0.95em !important;
+  color: #00a8e8 !important;
+  z-index: 0;
+  box-shadow: 10px 10px 5px #009dd9;
+  animation: bounce-button-in 0.45s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+::-webkit-input-placeholder {
+  color: #fff;
+}
+.bounce-in.ng-animate {
+  animation: none 0s;
+}
+.bounce-in {
+  animation: bounce-in 0.9s 0s cubic-bezier(0.175, 0.885, 0.32, 1.275) forwards;
+}
+@keyframes bounce-in {
+  50% {
+    transform: translateX(0);
+ }
+  75% {
+    transform: translateX(7px);
+ }
+  100% {
+    transform: translateX(2px);
+ }
+}
+@keyframes bounce-button-in {
+  0% {
+    transform: translateZ(0) scale(0);
+ }
+  100% {
+    transform: translateZ(0) scale(0.7);
+ }
+}
+
+.app-container {
+  border-radius: 4px;
+  /* overflow: hidden; */
+  width: 720px;
+  height: auto;
+  max-width: 100%;
+  /* position: absolute; */
+  /* top: 120px; */
+  /* left: 0; */
+  /* right: 0; */
+  margin: auto;
+}
+.buttons-container {
+  /* position: absolute; */
+  /* bottom: 15px; */
+  /* right: 0; */
+  height: 40px;
+  font-family: "Roboto", sans-serif;
+}
+.cancel-button, .save-button {
+  float: left;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 15px;
+  border-radius: 2px;
+  margin-right: 15px;
+  cursor: pointer;
+  transition: all 0.15s ease;
+}
+.cancel-button {
+  background: white;
+  color: #7aec;
+  border: 1px solid;
+}
+.save-button {
+  background: #569ce2;
+  color: white;
+}
+/* Datepicker Stuff */
+.datepicker {
+  position: relative;
+  width: 100%;
+  display: flex;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  font-family: "Roboto", sans-serif;
+  overflow: hidden;
+  transition: background 0.15s ease;
+  flex-wrap: wrap;
+  height: 100%;
+}
+.datepicker.am {
+  background: white;
+}
+.datepicker.pm {
+  background: #0dad83;
+}
+.datepicker-header {
+  width: 100%;
+  color: white;
+  overflow: hidden;
+}
+.datepicker-title {
+  width: 50%;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  padding: 0 15px;
+  text-align: left;
+  font-size: 20px;
+}
+.datepicker-subheader {
+  width: 50%;
+  float: left;
+  height: 60px;
+  line-height: 60px;
+  font-size: 14px;
+  padding: 0 15px;
+  text-align: right;
+}
+.datepicker-calendar {
+  width: 50%;
+  float: left;
+  padding: 0px 0px 15px 0px;
+  max-width: 400px;
+  display: block;
+  border: 1px solid lightblue;
+}
+.calendar-header {
+  color: black;
+  font-weight: bolder;
+  text-align: center;
+  font-size: 18px;
+  padding: 10px 0;
+  position: relative;
+}
+.current-month-container {
+  display: inline-block;
+  height: 30px;
+  position: relative;
+}
+.goback, .goforward {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  display: inline-block;
+  cursor: pointer;
+  position: relative;
+  top: -4px;
+}
+.goback path, .goforward path {
+  transition: stroke 0.15s ease;
+}
+.goback {
+  float: left;
+  margin-left: 3.8%;
+}
+.goforward {
+  float: right;
+  margin-right: 3.8%;
+}
+.calendar-day-header {
+  width: 100%;
+  position: relative;
+}
+.day-label {
+  color: #8a8a8a;
+  padding: 5px 0;
+  width: 14.2857142%;
+  display: inline-block;
+  text-align: center;
+}
+.datecontainer {
+  width: 14.2857142%;
+  display: inline-block;
+  text-align: center;
+  padding: 4px 0;
+}
+.datenumber {
+  max-width: 35px;
+  max-height: 35px;
+  line-height: 35px;
+  margin: 0 auto;
+  color: #8a8a8a;
+  position: relative;
+  text-align: center;
+  cursor: pointer;
+  z-index: 1;
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+}
+.no-hover .datenumber, .no-hover .datenumber:hover, .no-hover .datenumber:before, .no-hover .datenumber:hover::before {
+  cursor: default;
+  color: #8a8a8a;
+  background: transparent;
+  opacity: 0.5;
+}
+.no-hover .datenumber.day-selected {
+  color: white;
+}
+.datenumber:hover {
+  color: white;
+}
+.datenumber:before {
+  content: '';
+  display: block;
+  position: absolute;
+  height: 35px;
+  width: 35px;
+  border-radius: 100px;
+  z-index: -1;
+  background: transparent;
+  -webkit-transform: scale(0.75);
+  -moz-transform: scale(0.75);
+  -ms-transform: scale(0.75);
+  -o-transform: scale(0.75);
+  transform: scale(0.75);
+  transition: all 0.25s cubic-bezier(0.7, -0.12, 0.2, 1.12);
+  transition-property: background, transform, color, border;
+}
+.datenumber:hover::before {
+  background: #9fc2da;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.day-selected {
+  color: white;
+}
+.datenumber.day-selected:before {
+  background: #7caedf;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+  -webkit-animation: select-date 0.25s forwards;
+  -moz-animation: select-date 0.25s forwards;
+  animation: select-date 0.25s forwards;
+}
+@-webkit-keyframes select-date {
+  0% {
+      background: #9fc2da;
+ }
+  100% {
+      background: #7caedf;
+ }
+}
+@keyframes select-date {
+  0% {
+      background: #9fc2da;
+ }
+  100% {
+      background: #7caedf;
+ }
+}
+/* timepicker styles */
+.timepicker-container-outer {
+  width: 100%;
+  /* max-width: 700px; */
+  /* float: left; */
+  /* display: block; */
+  padding: 40px 30px 30px;
+  /* position: relative; */
+  /* top: 50px; */
+  overflow: hidden;
+  -webkit-tap-highlight-color: transparent;
+  transition: background 0.15s ease;
+}
+.timepicker-container-inner {
+  width: 100%;
+  height: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+  position: relative;
+  display: block;
+}
+.timeline-container {
+  display: block;
+  float: left;
+  position: relative;
+  width: 100%;
+  height: 36px;
+}
+.current-time {
+  display: block;
+  position: absolute;
+  z-index: 1;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  top: -25px;
+  left: -20px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.current-time::after {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  background: #7caedf;
+  transition: all 0.15s ease;
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  border-radius: 20px 20px 3px 20px;
+  z-index: -1;
+  top: 0;
+}
+.actual-time {
+  color: white;
+  line-height: 40px;
+  font-size: 12px;
+  text-align: center;
+  transition: all 0.15s ease;
+}
+.timeline {
+  display: block;
+  z-index: 1;
+  width: 100%;
+  height: 2px;
+  position: absolute;
+  bottom: 0;
+}
+.timeline::before, .timeline::after {
+  content: '';
+  display: block;
+  width: 2px;
+  height: 10px;
+  top: -6px;
+  position: absolute;
+  background: #0dad83;
+  left: -1px;
+  transition: background 0.15s ease;
+}
+.timeline::after {
+  left: auto;
+  right: -1px;
+}
+.hours-container {
+  display: block;
+  z-index: 0;
+  width: 100%;
+  height: 10px;
+  position: absolute;
+  top: 31px;
+  left: 1px;
+}
+.hour-mark {
+  width: 2px;
+  display: block;
+  float: left;
+  height: 4px;
+  background: #0dad83;
+  position: relative;
+  margin-left: calc((100% / 12) - 2px);
+  transition: background 0.15s ease;
+}
+.hour-mark:nth-child(3n) {
+  height: 6px;
+  top: -1px;
+}
+.display-time {
+  width: calc(60% - 30px);
+  display: block;
+  margin-top: 30px;
+  height: 36px;
+  line-height: 36px;
+  overflow: hidden;
+  float: left;
+  position: relative;
+  font-size: 20px;
+  text-align: center;
+  transition: color 0.15s ease;
+}
+.decrement-time, .increment-time {
+  cursor: pointer;
+  position: absolute;
+  display: block;
+  width: 24px;
+  height: 24px;
+  line-height: 24px;
+  top: 6px;
+  font-size: 20px;
+}
+.decrement-time {
+  left: 0;
+  text-align: left;
+}
+.increment-time {
+  right: 0;
+  text-align: right;
+}
+.increment-time path, .decrement-time path {
+  transition: all 0.15s ease;
+}
+.time {
+  width: calc(100% - 48px);
+  position: relative;
+  left: 24px;
+  height: 36px;
+}
+.time:after {
+  content: '';
+  height: 2px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: white;
+  left: 0;
+  right: 0;
+  opacity: 0.5;
+  transition: all 0.15s ease;
+}
+.time.time-active:after {
+  display: none;
+}
+.time-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 34px;
+  line-height: 34px;
+  bottom: 2px;
+  width: 100%;
+  border: none;
+  background: none;
+  text-align: center;
+  color: white;
+  font-size: inherit;
+  opacity: 0;
+  transition: all 0.15s ease;
+  cursor: pointer;
+}
+.time-input:focus, .time-input:active {
+  outline: none;
+}
+.formatted-time {
+  cursor: pointer;
+}
+.time-input:focus {
+  cursor: auto;
+}
+.time-input:focus ~ .formatted-time {
+  border-radius: 2px;
+  background: #0dad83;
+  color: white;
+  cursor: default;
+}
+.am-pm-container {
+  width: 40%;
+  padding-left: 15px;
+  float: right;
+  height: 36px;
+  line-height: 36px;
+  display: block;
+  position: relative;
+  margin-top: 30px;
+}
+.am-pm-button {
+  width: calc(50% - 5px);
+  height: 36px;
+  line-height: 36px;
+  background: #2196f3;
+  text-align: center;
+  color: white;
+  border-radius: 4px;
+  float: left;
+  cursor: pointer;
+}
+.am-pm-button:first-child {
+  background: #0dad83;
+  color: white;
+}
+.am-pm-button:last-child {
+  background: white;
+  color: #0dad83;
+  margin-left: 10px;
+}
+@-webkit-keyframes select-date-pm {
+  0% {
+      background: rgba(255, 255, 255, 0.5);
+ }
+  100% {
+      background: #fff;
+ }
+}
+@keyframes select-date-pm {
+  0% {
+      background: rgba(255, 255, 255, 0.5);
+ }
+  100% {
+      background: #fff;
+ }
+}
+.datepicker.am .datepicker-header {
+  color: white;
+  background: #569ce2;
+}
+.datepicker.am .current-time::after {
+  background: #0dad83;
+}
+.datepicker.am .actual-time {
+  color: white;
+}
+.datepicker.am .display-time {
+  color: #7caedf;
+}
+.datepicker.am .time-input {
+  color: #7caedf;
+}
+.datepicker.am .time:after {
+  background: #7caedf;
+}
+.datepicker.am .increment-time path, .datepicker.am .decrement-time path {
+  stroke: #7caedf;
+}
+.datepicker.pm .datepicker-header {
+  background: white;
+  color: #7caedf;
+}
+.datepicker.pm .datepicker-subheader {
+  color: #0dad83;
+}
+.datepicker.pm .goback:before, .datepicker.pm .goback:after, .datepicker.pm .goforward:before, .datepicker.pm .goforward:after {
+  background: white;
+}
+.datepicker.pm .day-label {
+  color: white;
+}
+.datepicker.pm .datenumber {
+  color: white;
+}
+.datepicker.pm .datenumber:hover::before {
+  background: rgba(255, 255, 255, 0.5);
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.datepicker.pm .datenumber.day-selected {
+  color: #7caedf;
+}
+.datepicker.pm .datenumber.day-selected:before {
+  background: white;
+  -webkit-animation: select-date-pm 0.25s forwards;
+  -moz-animation: select-date-pm 0.25s forwards;
+  animation: select-date-pm 0.25s forwards;
+}
+.datepicker.pm .current-month-container {
+  color: white;
+}
+.datepicker.pm .current-time::after {
+  background: white;
+}
+.datepicker.pm .actual-time {
+  color: #7caedf;
+}
+.datepicker.pm .display-time {
+  color: white;
+}
+.datepicker.pm .timeline::before, .datepicker.pm .pm .timeline::after {
+  background: white;
+}
+.datepicker.pm .hour-mark {
+  background: white;
+}
+.datepicker.pm .am-pm-button:last-child {
+  color: #7caedf;
+}
+.datepicker.pm .cancel-button {
+  background: none;
+  color: white;
+}
+.datepicker.pm .save-button {
+  background: white;
+  color: #7caedf;
+}
+.datepicker.pm .goback path, .datepicker.pm .goforward path {
+  stroke: white;
+}
+.datepicker.pm .time-input:focus ~ .formatted-time {
+  background: white;
+  color: #7caedf;
+}
+.datepicker.compact .datepicker-title, .datepicker.compact .datepicker-subheader {
+  width: 100%;
+  text-align: center;
+}
+.datepicker.compact .datepicker-title {
+  height: 50px;
+  line-height: 50px;
+}
+.datepicker.compact .datepicker-subheader {
+  height: 30px;
+  line-height: 30px;
+}
+.datepicker.compact .display-time {
+  width: 60%;
+  font-size: 20px;
+  line-height: 36px;
+}
+.datepicker.compact .app-container {
+  width: 100%;
+}
+.datepicker.compact .datepicker-calendar {
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+}
+.datepicker.compact .timepicker-container-outer {
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+  top: -15px;
+}
+.datepicker.compact .buttons-container {
+  /* position: relative; */
+  float: right;
+  margin: auto;
+  margin-top: 67px;
+}
+.calendarInputs input, .calendarInputs textarea{
+  width: 100%;
+}
+.appointmentSec{
+  height: 50%;
+  overflow-y: scroll;
+  border-bottom: 1px solid lightblue;
+}
+.appointmentTitle{
+
+}
+.appointmentDesc{
+  
+}
+.appointmentDate{
+
+}

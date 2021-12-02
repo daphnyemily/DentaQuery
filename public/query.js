@@ -22,10 +22,9 @@ window.onload = function(){
 
         for (let i = 0; i < data.length; i++) {
           document.querySelector(".procCode").innerText = urlCode
-          
-          invis2.value = data[i].description
 
           if (urlCode === data[i].dentalCode) {
+            invis2.value = data[i].description
             document.querySelector(".procDescription").innerText = data[i].description
             for (let x = 0; x < data[i].providerQuestions.length; x++) {
               let proQ = document.createElement("li")

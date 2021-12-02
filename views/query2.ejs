@@ -48,7 +48,7 @@
     </nav>
 <!-- ----------------------------PAGE CONTENT-------------------------------  -->
     
-    <form method="post" action="/updateProfile" class="queryPage" onsubmit="function stop(e){
+    <form method="post" action="/updateProfile/<%= url.substr(1) %> " class="queryPage" onsubmit="function stop(e){
         e.preventDefault()
         someBug()
         return false
@@ -69,13 +69,15 @@
                 <h2>Insurance Questions</h2>
                 <ul class="questionListIns">
                     <% for(let i = 0; i<queryForm[0].savedDocs.length; i++){%>
-                        <% for (const property in queryForm[0].savedDocs[i][0]) {%>
+                        <% for (const property in queryForm[0].savedDocs[i].doc[0]) {%>
                             <% if(property !== "procedureCode" && property !== "procedureDescription"){%>
                                 <% if(property.substr(0, 3) === "ins"){%>
+                                    <%if(url.substr(14).replace("%20", " ") === queryForm[0].savedDocs[i].date){%>
                     <li class="insQ">
                         <span></span>
-                        <textarea class="insQInput" name="<%= property %>"><%= queryForm[0].savedDocs[i][0][property] %></textarea>
+                        <textarea class="insQInput" name="<%= property %>"><%= queryForm[0].savedDocs[i].doc[0][property] %></textarea>
                     </li>
+                                    <% } %>
                                 <% } %>
                             <% } %>
                         <% } %>
@@ -87,13 +89,15 @@
                 <h2>Provider Questions</h2>
                 <ul class="questionListProvider">
                     <% for(let i = 0; i<queryForm[0].savedDocs.length; i++){%>
-                        <% for (const property in queryForm[0].savedDocs[i][0]) {%>
+                        <% for (const property in queryForm[0].savedDocs[i].doc[0]) {%>
                             <% if(property !== "procedureCode" && property !== "procedureDescription"){%>
                                 <% if(property.substr(0, 3) === "pro"){%>
+                                    <%if(url.substr(14).replace("%20", " ") === queryForm[0].savedDocs[i].date){%>
                     <li class="proQ">
                         <span></span>
-                        <textarea class="proQInput" name="<%= property %>"><%= queryForm[0].savedDocs[i][0][property] %></textarea>
+                        <textarea class="proQInput" name="<%= property %>"><%= queryForm[0].savedDocs[i].doc[0][property] %></textarea>
                     </li>
+                                    <% } %>
                                 <% } %>
                             <% } %>
                         <% } %>

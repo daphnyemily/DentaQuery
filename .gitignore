@@ -17,3 +17,4 @@ node_modules
 database.js
 .env
 .DS_STore
+.history
