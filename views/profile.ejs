@@ -166,8 +166,10 @@
                                 <% if (calendar[0]) { %>
                                   <% for(let i = 0; i < calendar[0].calendarEvents.length; i++) {%>
                                 <h3 class="appointmentTitle"><%= calendar[0].calendarEvents[i].appointment%></h3>
-                                <p class="appointmentDesc"><%= calendar[0].calendarEvents[i].appointmentDesc%></p>
-                                <span class="appointmentDate"><%= calendar[0].calendarEvents[i].date%></span>
+                                <div id="appointmentDesc">
+                                <p class="appointmentDesc"><%= calendar[0].calendarEvents[i].appointmentDesc%>
+                                <span class="appointmentDate"><%= calendar[0].calendarEvents[i].date%></span></p>
+                                </div>
                                   <% } %>
                                 <% } %>
                               </div>
@@ -212,8 +214,8 @@
           <% if (queryForm[0]) { %>
           <ul>
             <% for(let i=0; i<queryForm[0].savedDocs.length; i++) {%>
-              <li>
-                <a href="/query2/<%= queryForm[0].savedDocs[i].doc[0].procedureCode %>-<%= queryForm[0].savedDocs[i].date %>"><%= queryForm[0].savedDocs[i].doc[0].procedureCode %> , <%= queryForm[0].savedDocs[i].doc[0].procedureDescription %>-, <%= queryForm[0].savedDocs[i].date%></a>
+              <li class="savedLi">
+                <a class="savedA" href="/query2/<%= queryForm[0].savedDocs[i].doc[0].procedureCode %>-<%= queryForm[0].savedDocs[i].date %>"><h2 class="mainCode"><%= queryForm[0].savedDocs[i].doc[0].procedureCode %>:</h2> <p class="mainDesc"><%= queryForm[0].savedDocs[i].doc[0].procedureDescription %></> <p class="mainDate"><%= queryForm[0].savedDocs[i].date%></></a>
               </li>
             <% } %>
           </ul>
