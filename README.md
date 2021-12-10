@@ -13,4 +13,4 @@
 ### Profile page
 <img src="https://github.com/daphnyemily/DentaQuery/blob/main/profilePage.png">
 
-#### Tech Stack - CSS, Javascript, Node.js, Created API JSON file, Express, EJS, Sass, MongoDB, mongoose, passport.
+
